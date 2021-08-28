@@ -15,5 +15,5 @@ _A dashboard for **Crypto** news and price analysis._
 - Fully justifiable to only use vanilla JS, HTML and CSS.
 
 **Review**
-
+* https://jolly-spence-fc7bb2.netlify.app/ 
 - pending...
