@@ -1,14 +1,14 @@
 # My Dashboard Design
 
-_A dashboard for **Doge** news and price analysis._
+_A dashboard for **Crypto** news and price analysis._
 
 ---
 
 **Requirements**
 
-- Get current Doge price from an available Coingecko API and get WallstreetBets sentiment also from .
+- Get current Crypto price from an available Coingecko API and get WallstreetBets sentiment also from .
 - Display it in a cleanly designed dashboard.
-- Current news regarding doge.
+- Current news regarding cryptocurrency.
 
 **Frameworks**
 
