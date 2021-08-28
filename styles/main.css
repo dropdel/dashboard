@@ -1,0 +1,39 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  height: 100%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  height: inherit;
+  margin: 0;
+}
+header {
+  background-color: white;
+  box-shadow: #f3f0f0 0px 15px 4px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+nav i {
+  font-size: 1.5rem;
+}
+main {
+  display: flex;
+  justify-content: space-evenly;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+footer p {
+  text-align: center;
+  font-size: 0.85rem;
+}
