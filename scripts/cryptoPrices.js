@@ -53,7 +53,7 @@ setInterval(() => {
         index++;
       }
     });
-}, 50000);
+}, 15000);
 function createInfoBox(cryptoInfo) {
   const main = document.getElementById("coinArea");
 
@@ -63,10 +63,12 @@ function createInfoBox(cryptoInfo) {
   const name = document.createTextNode(cryptoInfo.id);
   const symbolArea = document.createElement("span");
   const symbol = document.createTextNode(cryptoInfo.symbol);
+  const price = document.createTextNode("Loading...");
   const priceArea = document.createElement("span");
   const imgArea = document.createElement("img");
 
   priceArea.classList.add("coinPrice");
+  priceArea.appendChild(price);
   nameArea.appendChild(name);
   nameArea.style = "align-self: flex-start; font-variant: small-caps;";
   symbolArea.appendChild(symbol);
@@ -81,14 +83,3 @@ function createInfoBox(cryptoInfo) {
     "display: flex; flex-direction: column; justify-content: space-between; align-items: center; width: 180px; height: 180px; margin: 0.5rem; padding: 0.5rem; background: white; border-radius: 5px;";
   main.appendChild(infoBox);
 }
-
-function getPriceUSD(btcPrice) {
-  const priceArea = document.getElementsByClassName("coinPrice");
-  for (let el of priceArea) {
-    console.log(data);
-    el.innerHTML = `$${(parseFloat(el.innerHTML) * btcPrice).toFixed(2)}`;
-  }
-}
-setTimeout(() => {
-  console.log(trendingIDs);
-}, 3000);
