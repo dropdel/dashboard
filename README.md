@@ -6,7 +6,7 @@ _A dashboard for **Crypto** news and price analysis._
 
 **Requirements**
 
-- Get current Crypto price from an available Coingecko API and get WallstreetBets sentiment also from .
+- Get current Crypto price from an available Coingecko API.
 - Display it in a cleanly designed dashboard.
 - Current news regarding cryptocurrency.
 
@@ -16,4 +16,5 @@ _A dashboard for **Crypto** news and price analysis._
 
 **Review**
 * https://jolly-spence-fc7bb2.netlify.app/ 
+* Feature needed: dark mode toggle button, popular crypto search list and select & crypto selected appears in a section at the bottom.
 - pending...
